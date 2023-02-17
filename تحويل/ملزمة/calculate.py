@@ -64,7 +64,7 @@ def set_cell_error_and_add_to_console(worksheet, location, exception):
             formula=cell.formula,
             cell_name=coordinates_to_cell_name(*location)
         )
-    )
+ )
 
 
 def recalculate_cell(location, leaf_queue, graph, context):
@@ -206,7 +206,7 @@ def format_traceback(frames):
 
 def _raise(exc):
     raise exc
-
+ahhxncjcnxnxnx
 
 def run_worksheet(worksheet_url, overrides, private_key):
     target_url = '%sv%s/json/' % (worksheet_url, CURRENT_API_VERSION)
